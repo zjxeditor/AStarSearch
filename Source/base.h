@@ -1,0 +1,25 @@
+/* //////////////////////////////////////////////////////////////////////// */
+/* File: base.h */
+/* Description: this file will define the common enum type for the whole program */
+/*				as well as a random generator */
+/* //////////////////////////////////////////////////////////////////////// */
+
+#ifndef H_BASE
+#define H_BASE
+
+typedef char bool;	/* make the "bool" type for convenience */
+#define true 1
+#define false 0
+
+#include <stdio.h>
+#include <math.h>
+#include <stddef.h>
+#include <stdlib.h>
+#include <time.h>
+
+#endif
+
+/* //////////////////////////////////////////////////////////////////////// */
+/* End of base.h */
+/* //////////////////////////////////////////////////////////////////////// */
+
